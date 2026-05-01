@@ -20,7 +20,7 @@ function PrivateRoute({ children }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/scotish-frontend/">
       <div className="bg-animated" />
       <ToastContainer
         position="top-right"
